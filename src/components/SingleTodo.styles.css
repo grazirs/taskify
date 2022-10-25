@@ -1,0 +1,50 @@
+.todos__heading {
+  font-size: 30px;
+  color: white;
+}
+
+.todos__single {
+  display: flex;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  transition: 0.2s;
+  background: #f3f3f3;
+}
+
+.drag {
+  box-shadow: 0 0 20px black;
+}
+
+.todos__single:hover {
+  box-shadow: 0 0 5px black;
+  transform: scale(1.03);
+}
+
+.todos__single--text {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.todos__single--text:focus { 
+  outline: none;
+  font-family: "Quicksand", sans-serif;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.todos__single--text-strike {
+  text-decoration: line-through;
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
