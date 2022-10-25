@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "todo": "Study React",
+    "isDone": true
+  },
+
+  {
+    "id": 2,
+    "todo": "Study TS",
+    "isDone": false
+  },
+
+  {
+    "id": 3,
+    "todo": "Study Cypress",
+    "isDone": false
+  }
+]
